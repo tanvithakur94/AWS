@@ -1,0 +1,38 @@
+Topics: {
+	id:{
+ 		type: String,
+        required: true
+	}
+	topic_title: {
+    	type: String,
+    	required: true
+    },
+    topic_members: {
+    	type: Number,
+    	required: true
+    },
+    topic_about: {
+    	type: String,
+    	required: true
+    },
+    topic_posts: {
+    	type: array,
+    	required: false
+    },
+    topic_creation_date: {
+    	type: date,
+    	required: true
+    },
+    topic_avatar_image: {
+    	type: base64,
+    	required: true
+    },
+    topic_rules: {
+    	type: array,
+    	required: false
+    },
+    topic_moderators: {
+    	type: array,
+    	required: true
+    }
+}

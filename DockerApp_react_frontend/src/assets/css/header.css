@@ -1,0 +1,15 @@
+.header{
+  background-color: rgb(0, 43, 87);
+  height: 70px;
+  padding: 20px 220px 20px 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact{
+  display: inline-block;
+  color: white;
+}
+.login-buttons .patient-button{
+  margin-left: 20px;
+}

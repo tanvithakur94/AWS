@@ -1,0 +1,25 @@
+.banner{
+  padding: 20px 220px 20px 220px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.banner ul{
+  float: right;
+  list-style-type: none;
+  display: flex;
+}
+.banner ul li{
+  color: rgb(0, 43, 87);
+  padding: 6px 12px 6px 12px;
+}
+.logo{
+  display: inline-block;
+  color: rgb(0, 43, 87);
+  font-size: 36px;
+}
+.logo:hover{
+  text-decoration: none;
+}
+.logo-img{
+  width: 42px;
+  height: 42px;
+}

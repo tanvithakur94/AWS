@@ -1,0 +1,58 @@
+comments: {
+	id:{
+		type: String,
+    	required: true
+	},
+	comment_author:{
+		type: String,
+    	required: true
+	},
+	comment_date:{
+		type: date,
+    	required: true
+	},
+	comment_content:{
+		type: string,
+    	required: true
+	},
+	comment_award:{
+		type: array,
+    	required: true
+	},
+	comment_report:{
+		type: boolean,
+    	required: true
+	},
+	comment_reply:{
+		type: array,
+    	required: true,
+    	replies:[
+    		reply{
+			    id:{
+					type: String,
+			    	required: true
+				},
+				reply_author:{
+					type: String,
+			    	required: true
+				},
+				reply_date:{
+					type: date,
+			    	required: true
+				},
+				reply_content:{
+					type: string,
+			    	required: true
+				},
+				reply_award:{
+					type: array,
+			    	required: true
+				},
+				reply_report:{
+					type: boolean,
+			    	required: true
+				}
+    		}
+    	]
+	}
+}

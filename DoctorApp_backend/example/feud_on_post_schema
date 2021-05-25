@@ -1,0 +1,54 @@
+Post: {
+    id: {
+        type: String,
+        required: true
+    },
+    post_title: {
+    	type: String,
+    	required: true
+    },
+    post_status: {
+        type: String,
+        required: true
+    },
+    post_vote: {
+        type: boolean,
+        required: true
+    },
+    post_creator: {
+    	type: String,
+    	required: true
+    },
+    post_date: {
+    	type: Date,
+    	required: true
+    },
+    post_topic: {
+    	type: String,
+    	required: true
+    },
+    post_awards: {
+    	type: array,
+    	required: false
+    },
+    post_comments: {
+    	type: array,
+    	required: false
+    },
+    cross_posted: {
+		type: array,
+    	required: false
+    },
+    post_reported: {
+    	type: boolean,
+    	required: true
+    },
+    post_media: {
+    	type: base64,
+    	required: false
+    },
+    post_link: {
+    	type: String,
+    	requried: false
+    }
+ };
